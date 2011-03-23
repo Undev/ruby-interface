@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "ruby-interface"
   gem.homepage = "http://git.undev.cc/small-things/ruby-interface"
   gem.license = "MIT"
-  gem.summary = %Q{Более комплексные руби-интерфейсы, чем просто миксины}
-  gem.description = %Q{Более комплексные руби-интерфейсы, чем просто миксины}
+  gem.summary = %Q{Ruby interface}
+  gem.description = %Q{Ruby interface}
   gem.email = "ceo@prepor.ru"
   gem.authors = ["Andrew Rudenko"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
