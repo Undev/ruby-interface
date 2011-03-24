@@ -25,6 +25,8 @@ Jeweler::Tasks.new do |gem|
   # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
   gem.add_runtime_dependency 'i18n', '> 0.1'
   gem.add_runtime_dependency 'activesupport', '> 0.1'
+  # gem.add_development_dependency 'rspec', '> 2'
+  # gem.add_development_dependency 'rr', '> 0'
 end
 Jeweler::RubygemsDotOrgTasks.new
 
