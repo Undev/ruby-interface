@@ -1,14 +1,6 @@
-PATH
-  remote: .
-  specs:
-    ruby-interface (0.0.1)
-      activesupport (> 0.1)
-      i18n (> 0.1)
-
 GEM
   remote: http://rubygems.org/
   specs:
-    activesupport (3.0.5)
     bluecloth (2.1.0)
     builder (3.0.0)
     diff-lcs (1.1.2)
@@ -16,7 +8,6 @@ GEM
       builder
       sinatra
     git (1.2.5)
-    i18n (0.5.0)
     jeweler (1.5.2)
       bundler (~> 1.0.0)
       git (>= 1.2.5)
@@ -53,6 +44,5 @@ DEPENDENCIES
   rcov
   rr
   rspec (~> 2.3.0)
-  ruby-interface!
   undev
   yard (~> 0.6.0)

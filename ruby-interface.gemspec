@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{ruby-interface}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Andrew Rudenko"]
@@ -28,7 +28,7 @@ Gem::Specification.new do |s|
     "lib/ruby-interface/yard.rb",
     "lib/ruby_interface.rb",
     "ruby-interface.gemspec",
-    "spec/ruby-interface_spec.rb",
+    "spec/ruby_interface_spec.rb",
     "spec/spec_helper.rb"
   ]
   s.homepage = %q{http://git.undev.cc/small-things/ruby-interface}
@@ -37,7 +37,7 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.3.7}
   s.summary = %q{Ruby interface}
   s.test_files = [
-    "spec/ruby-interface_spec.rb",
+    "spec/ruby_interface_spec.rb",
     "spec/spec_helper.rb"
   ]
 
