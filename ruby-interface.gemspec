@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "ruby-interface/version"
 
 Gem::Specification.new do |s|
-  s.name = %q{zactor}
+  s.name = %q{ruby-interface}
   s.version = RubyInterface::VERSION
   s.summary = "Ruby interface"
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
