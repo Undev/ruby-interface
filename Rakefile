@@ -11,24 +11,7 @@ rescue Bundler::BundlerError => e
 end
 require 'rake'
 
-require 'jeweler'
-Jeweler::Tasks.new do |gem|
-  # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "ruby-interface"
-  gem.homepage = "http://git.undev.cc/small-things/ruby-interface"
-  gem.license = "MIT"
-  gem.summary = %Q{Ruby interface}
-  gem.description = %Q{Ruby interface}
-  gem.email = "ceo@prepor.ru"
-  gem.authors = ["Andrew Rudenko"]
-  # Include your dependencies below. Runtime dependencies are required when using your gem,
-  # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
-  gem.add_runtime_dependency 'i18n', '> 0.1'
-  gem.add_runtime_dependency 'activesupport', '> 0.1'
-  # gem.add_development_dependency 'rspec', '> 2'
-  # gem.add_development_dependency 'rr', '> 0'
-end
-Jeweler::RubygemsDotOrgTasks.new
+Bundler::GemHelper.install_tasks
 
 require 'rspec/core'
 require 'rspec/core/rake_task'
